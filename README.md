@@ -1,10 +1,21 @@
+部署
+apache端口80
+
+composer install
+
+php artisan key:generate
+
+数据库forge
+
+用户名密码填写正确
+
+
+
 # netdisk
 Vue.js+Laravel构建的前后端分离网盘系统
 
-# 百毒网盘（http://github.com/cw1997/netdisk）
+
 ### 技术栈：PHP，MySQL，Apache，Redis，Laravel5.3，Vue.js2.0，ElementUI.
-### 开发规模：1人，4天
-### 开发时间：2017年3月
 ## 项目简介：
 该项目为本人首个使用Laravel 5.3 + Vue.js2.0开发的前后端分离项目，具有注册登录，文件上传下载，上传进度显示，文件以及文件夹的新建删除，文件回收站的清空和恢复，文件分享，加密分享，当前文件夹搜索和当前网盘全局搜索，具有一般网盘的基础功能。网盘安全性高，用户体验良好。
 项目优点：
